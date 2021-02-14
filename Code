@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <style>
+
+        body {
+            background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);  
+        }
+
+        h1,h2 {
+            text-align: center;
+        }
+
+        .margin {
+            margin-left: 15px;
+        }
+
+        .style {
+            font-size: 25px;
+            text-align: justify;
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+
+        img {
+            display: block;
+            width: auto;
+            max-width: 100%;
+            height:auto;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #box-container {
+             height: 100%;
+             width: 100%;
+             display:flex; 
+             flex-direction:row;
+             text-align: center;
+             justify-content:space-evenly;
+        }
+
+        #quote-box1 {
+            width: 15%;
+            order:1;
+            background-color: lightskyblue;
+            font-size: 17px;
+            font-family: sans-serif;
+            text-align:center;
+        }
+
+        #main-body {
+            width: 60%;
+            order:2;
+            background-color:lightcyan;
+            font-size: 20px;
+            text-align:left;
+        }
+
+        #quote-box2 {
+            width: 15%;
+            order:3;
+            background-color:lightskyblue;
+            font-size: 17px;
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        figcaption {
+            text-align:center;
+        }
+
+        footer {
+            text-align:center;
+        }
+
+        </style>
+        
+    <main id="main">
+    <title id="title"> A Tribute to Corporal Desmond Doss</title>
+    <header>
+        <h1><u>Corporal Desmond Thomas Doss</u></h1>
+    </header>
+        <h2 text-align="center"><i>The first Conscientious Objector to receive the Medal of Honor.</i></h2>
+        <div id="img-div">
+            <figure>
+                <img id="image" src="https://www.desmonddoss.com/photos/Doss%20Catalog/D103.jpg" alt="Photo of Desmond Doss">
+                <figcaption id="img-caption">
+                    Photo of young Desmond Doss with the American flag in the background.
+                </figcaption>
+            </figure>
+
+        </div>
+            <p id="tribute-info" class="style">Desmond Thomas Doss was a United States Army corporal who served as a combat medic with an infantry company in World War II. Doss enlisted in April 1942, but refused to kill or carry a weapon into combat because of his personal beliefs as a Seventh-day Adventist. He was twice awarded the Bronze Star Medal for actions in Guam and the Philippines. Doss further distinguished himself in the Battle of Okinawa by saving 75 men, becoming the only conscientious objector to receive the Medal of Honor for his actions during the Second World War. His life has been the subject of books, the documentary The Conscientious Objector, and the 2016 film Hacksaw Ridge. </p>
+            <hr><div id="box-container">
+                <div id="main-body">
+                <p class="margin"><u>The timeline of the life of Desmond Doss:</u></p>
+        <ul>
+            <li>1919 - Born on February 7 in Lynchburg, Virginia, U.S.A. to William Doss and Bertha Doss.</li>
+            <br>
+            <li>1942 - Enlisted for military service on April 1 at Camp Lee, Virginia.</li>
+            <br>
+            <li>1942 - Married Dorothy Pauline Schutte on August 17</li>
+            <br>
+            <li>1944 - Awarded two Bronze Star Medals with 'V' device, for exceptional valor while serving on Guam and the Philippians.</li>
+            <br>
+            <li>1945 - In May, during the battle on Hacksaw ridge in Okinawa, under heavy gunfire and explosions, Doss crawled on the ground and dragged severely injured men to the edge of the ridge before lowering them down to other medics below. He is credited to have saved at least 75 men on that day.</li>
+            <br>
+            <li>1946 - Diagnosed with tuberculosis, which he had contracted on Leyte, Philippians</li>
+            <br>
+            <li>1951 - In August, Doss underwent treatment – which cost him a lung and five ribs – before being discharged from the hospital with 90% disability.</li>
+            <br>
+            <li> 1976 - Doss continued to receive treatment from the military, but after an overdose of antibiotics rendered him completely deaf in 1976, he was given 100% disability</li>
+            <br>
+            <li>1988 - Regained his hearing after receiving a cochlear implant.</li>
+            <br>
+            <li>1991 - His wife Dorothy, died in a car accident on November 17.</li>
+            <br>
+            <li> 1993 - Marries Frances May Duman on July 1.</li>
+            <br>
+            <li> 2006 - After being hospitalized for difficulty breathing, Doss died on March 23, 2006, at his home in Piedmont, Alabama. He was buried on April 3, 2006, in the National Cemetery in Chattanooga, Tennessee.</li>
+            <br>
+            <li> 2016 - The feature film Hacksaw Ridge was released, based on Doss' life. It was directed by Mel Gibson. Doss is portrayed by Andrew Garfield, who was nominated for an Academy Award for Best Actor for his performance, won Critics' Choice Movie Award for Best Actor in an Action Movie, and Satellite Award for Best Actor – Motion Picture.</li>
+        </ul>
+    </div>
+
+        <p id="quote-box1">
+            <img src="https://www.desmonddoss.com/photos/Doss%20Catalog/D108.jpg" alt=" Photo of Doss when he was posted in Okinawa">
+            <br><br>
+            <i>"Don't ever doubt my <br> courage because I will be right by your side saving life while you take life"</i> <br><br>- Doss to Captain Jack Glover.
+            <br>__________<br><br>
+            <img src="https://www.desmonddoss.com/photos/Doss%20Catalog/D124.jpg" alt="Photo of President Truman awarding Doss with the Medal of Honor">
+            <br><br>
+            <i>You really deserve this.<br> I consider this a greater honor than being president."</i><br><br> - President Harry Truman while presenting the Medal of Honor.
+            <br>__________<br>
+        </p>
+
+        <p id="quote-box2">
+            <img src ="https://www.desmonddoss.com/photos/Doss%20Catalog/D107.jpg" alt="Photo of Desmond Doss on top of Hacksaw Ridge">
+            <br><br>
+            <i>"Lord, please help me <br> get one more"</i> <br><br>- Doss (while saving soldier after soldier on Hacksaw Ridge)
+            <br>__________<br><br>
+            <img src="https://www.desmonddoss.com/photos/Doss%20Catalog/D164.jpg" alt="Photo of the Medal of Honor awarded to Desmond Doss">
+            <br><br>
+            <i>"He was one of the bravest persons alive, <br> And then to have him <br> end up saving my life <br> was the irony of the <br>whole thing"</i><br><br> - Captain Glover <br>on Doss' heroics.
+            <br>__________<br><br>
+        </p>
+    </div>
+    <footer>
+        <p style="font-size:22px">To know more about this incredible person, please visit <a id="tribute-link" href="https://www.desmonddoss.org/index.php" target="_blank"><strong>The Desmond Doss Council.</strong></a></p>
+        All images used are property of © Desmond Doss Council.
+    </footer>
+</main>
+</html>
